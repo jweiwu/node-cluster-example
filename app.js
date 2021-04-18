@@ -38,5 +38,5 @@ app.get('/is-leader', (req, res, next) => {
 });
 
 app.listen(port, () => {
-  console.log('server started on port', port);
+  console.log(`App is listening at http://localhost:${port}`);
 });
